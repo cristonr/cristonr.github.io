@@ -1,0 +1,95 @@
+body {
+    margin: 20px;
+    background-color: bisque;
+}
+.nav {
+    
+    background-color: rgb(153, 27, 27);
+    background-size:auto;
+    font-size: 40px;
+    color: beige;
+    line-height:45px;
+    margin: 15px;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: beige;
+}
+.logo {
+    width: 300x;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: auto
+}
+header {
+    padding-top: 20px;
+    background-color: rgb(153, 27, 27);
+    background-size: 600px;
+    text-align: center;
+  
+    
+}
+h1{
+    font-size: 50px;
+    color: beige;
+}
+h2 {
+    background-color: rgb(153, 27, 27);
+    background-size: 600px;
+    height: 50px;
+    color: beige;
+    padding: 5px;
+    margin: 10px
+} 
+p {
+    
+    font-size: large;
+    font-weight: bold;
+    margin: auto;
+    color: black;
+    max-width: 600px;
+    text-align: justify;
+}
+.banda {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+section {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.discos {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 50px;
+} 
+
+
+
+.foot {
+    background-color: rgb(160, 77, 77);
+    background-size: 600px;
+    height: 40px;
+    color: beige;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-face{
+    padding: 5px;
+    width: 20px;
+}

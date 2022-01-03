@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css">
+    <title>Cristian Reven</title>
+    <link href="imagenes/barbero.svg" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="navbar-container__desktop">
+            <h2>Cristian Reven</h2>
+            <a class="listado" href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
+            <a class="listado" href="#sobre_mi"><i class="fas fa-user-alt" aria-hidden="true"></i> Sobre mi</a>
+            <a class="listado" href="#servicios"><i class="fas fa-briefcase" aria-hidden="true"></i> Servicios</a>
+            <a class="listado" href="#experience"><i class="fas fa-graduation-cap"
+                    aria-hidden="true"></i>Experiencia</a>
+            <a class="listado" href="#works"><i class="fas fa-layer-group" aria-hidden="true"></i> Mis trabajos</a>
+            <a class="listado" href="#contacto"><i class="fas fa-comments" aria-hidden="true"></i> Contacto</a>
+        </section>
+        <div class="full-container">
+            <section class="navbar-container__mobile">
+                <nav class="navbar-container__mobile__list">
+                    <label for="navbar" class="navbar-container__mobile__list__label">
+                        <input type="checkbox" id="navbar" class="navbar-input" />
+                        <div class="navbar-open">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="navbar-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="navbar-contet">
+                            <a class="listado" href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
+                            <a class="listado" href="#sobre_mi"><i class="fas fa-user-alt" aria-hidden="true"></i> Sobre
+                                mi</a>
+                            <a class="listado" href="#servicios"><i class="fas fa-briefcase" aria-hidden="true"></i>
+                                Servicios</a>
+                            <a class="listado" href="#experience"><i class="fas fa-graduation-cap"
+                                    aria-hidden="true"></i>Experiencia</a>
+                            <a class="listado" href="#works"><i class="fas fa-layer-group" aria-hidden="true"></i> Mis
+                                trabajos</a>
+                            <a class="listado" href="#contacto"><i class="fas fa-comments" aria-hidden="true"></i>
+                                Contacto</a>
+                        </div>
+                    </label>
+                </nav>
+            </section>
+            <section class="banner-container" id="home">
+                <div class="background-image">
+                    <img class="avatar" src="imagenes/barbero.svg" alt="avatar">
+                    <h1>Cristian Reven</h1>
+                    <p class="p_banner">Frontend Developer</p>
+                    <a href="https://www.linkedin.com/in/cristian-reven-45a031164/" target="_blank"><img
+                            class="redes" src="imagenes/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://github.com/cristonr" target="_blank"></i><img class="redes"
+                            src="imagenes/github.svg" alt="github"></a>
+                    <a href="https://www.facebook.com/cristonr" target="_blank"><img class="redes"
+                            src="imagenes/facebook.svg" alt="facebook"></a>
+                    <div class="div-contacto"><button class="botones"><a href="#contacto">Contacto</a></button></div>
+                    <a class="banner-container__scroll" href="#sobre_mi">
+                        <span>Scroll down</span>
+                        <div><img class="img-scroll" src="imagenes/scroll.png"></div>
+                    </a>
+                </div>
+            </section>
+            <section class="sobre_mi-container_container" id="sobre_mi">
+                <h3>Sobre mi</h3>
+                <div class="sobre_mi_container">
+                    <img class="avatar-sobreMi" src="./imagenes/barbero.svg" alt="Avatar">
+                    <div class="sobre_mi_container_container">
+                        <div class="skils-container__main__card__description">
+                            <p class="p-sobreMi">Hola, soy Cristian, actualmente me estoy formando como desarrollador
+                                Frontend y
+                                programador. Las herramientas utilizadas son: HTML, CSS y ReactJS</p>
+                            <button class="botones"><a
+                                    href="https://www.linkedin.com/in/cristian-reven-45a031164/"
+                                    target="_blank">Ver
+                                    curriculum</a></button>
+                        </div>
+                        <div class="progress_bar_main_container">
+                            <div class="progress">
+                                <span class="text-bar">HTML</span>
+                                <div class="cursos-container-barra">
+                                    <div class="cursos-container-barra-color1"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="text-bar">CSS</span>
+                                <div class="cursos-container-barra">
+                                    <div class="cursos-container-barra-color2"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="text-bar">ReactJS</span>
+                                <div class="cursos-container-barra">
+                                    <div class="cursos-container-barra-color3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="servicios_container" id="servicios">
+                <h3>Servicios</h3>
+                <div class="container-cards-service">
+                    <div class="servicios-card1">
+                        <div class="img-card-service"><img src="imagenes/dev.svg"></div>
+                        <h4 class="card-title">HTML</h4>
+                        <p class="card-text">Utilizo el lenguaje HTML para la creacion y desarrollo de paginas web
+                            creando una base
+                            solida y practica</p>
+                    </div>
+                    <div class="servicios-card2">
+                        <div class="img-card-service"><img src="imagenes/css.svg"></div>
+                        <h4 class="card-title">CSS</h4>
+                        <p class="card-text">Gracias al lenguaje CSS puedo dar estilos a las paginas, generando un
+                            entorno agradable
+                            para el usuario</p>
+                    </div>
+                    <div class="servicios-card3">
+                        <div class="img-card-service"><img src="imagenes/ux.svg"></div>
+                        <h4 class="card-title">ReactJS</h4>
+                        <p class="card-text">La mayor biblioteca Javascript de código abierto diseñada para crear
+                            interfaces de
+                            usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="experience-container-container" id="experience">
+                <h3>Experiencia</h3>
+                <div class="experience-container__topics">
+                    <div class="experience-container__topics__card">
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span class="experience-container__topics__card__data__time">2021 - Abril</span>
+                            <div><span class="experience-container__topics__card__data__title">Rocketcode</span></div>
+                            <p class="experience-container__topics__card__data__description">ReactJS, una de las mayores
+                                bibliotecas
+                                virtuales de Javascript para crear interfaces visuales y las mejores aplicaciones</p>
+                        </div>
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span class="experience-container__topics__card__data__time">2021 - Marzo</span>
+                            <div><span class="experience-container__topics__card__data__title">Rocketcode</span></div>
+                            <p class="experience-container__topics__card__data__description">HTML Y CSS, Creacion de
+                                paginas web desde
+                                cero, modificando las propiedades y dandole los mejores estilos, diseños responsive </p>
+                        </div>
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span class="experience-container__topics__card__data__time">2021-Febrero </span>
+                            <div><span class="experience-container__topics__card__data__title">Rocketcode</span></div>
+                            <p class="experience-container__topics__card__data__description">Javascript, el lenguaje de
+                                programacion
+                                orientada a objetos, permite mejorar la interfaz del usuario y hacer mas dinamicas las
+                                paginas web </p>
+                        </div>
+                    </div>
+                    <div class="experience-container__topics__card">
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-briefcase" aria-hidden="true"></i>
+                            <span class="experience-container__topics__card__data__time">2021 - Abril</span>
+                            <div><span class="experience-container__topics__card__data__title">Google</span></div>
+                            <p class="experience-container__topics__card__data__description">Frontend Developer,
+                                desarrollo y
+                                mantenimiento de paginas web de la institución</p>
+                        </div>
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="experience-container__topics__card__data__time">2021 - Marzo</span>
+                            <div><span class="experience-container__topics__card__data__title">Amazon</span></div>
+                            <p class="experience-container__topics__card__data__description">Frontend Developer,
+                                desarrollo y
+                                mantenimiento de paginas web de la institución</p>
+                        </div>
+                        <div class="experience-container__topics__card__data">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="experience-container__topics__card__data__time">2021-Febrero </span>
+                            <div><span class="experience-container__topics__card__data__title">E-Bay</span></div>
+                            <p class="experience-container__topics__card__data__description">Frontend Developer,
+                                desarrollo y
+                                mantenimiento de paginas web de la institución</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="works-container_container" id="works">
+                <h3>Mis trabajos</h3>
+                <div class="works-container__topics">
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-1.svg" alt="Magic Photo Editor">
+                        <div class="works-container__topics__card__mask">
+                            <span>Magic Photo Editor</span>
+                        </div>
+                    </figure>
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-2.svg" alt="Gift Shop">
+                        <div class="works-container__topics__card__mask">
+                            <span>Gift Shop</span>
+                        </div>
+                    </figure>
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-3.svg" alt="">
+                        <div class="works-container__topics__card__mask">
+                            <span>BrainStormingApp</span>
+                        </div>
+                    </figure>
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-4.svg" alt="Outfits.com">
+                        <div class="works-container__topics__card__mask">
+                            <span>Outfits.com</span>
+                        </div>
+                    </figure>
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-5.svg" alt="YouVideo">
+                        <div class="works-container__topics__card__mask">
+                            <span>YouVideo</span>
+                        </div>
+                    </figure>
+                    <figure class="works-container__topics__card">
+                        <img src="./imagenes/trabajo-6.svg" alt="Mobile Organizer">
+                        <div class="works-container__topics__card__mask">
+                            <span>Mobile Organizer</span>
+                        </div>
+                    </figure>
+                </div>
+                <button class="botones"><a href="trabajos.html" target="_blank">Ver todos</a></button>
+            </section>
+            <section class="contacto-container_container" id="contacto">
+                <h3>Contacto</h3>
+                <div class="contacto-container_main">
+                    <div class="contacto-container__main__text">
+                        <span class="contacto-container__main__text__title">Enviame un mensaje!</span>
+                        <p>Escribime un correo electronico con todas tus consultas y voy a contestar a la brevedad.<br>
+                            Muchas gracias!!<br>
+                            Saludos 👋🏼.</p>
+                    </div>
+                    <form class="contacto-container_formulario" method="post" action= "mailto:cristianreven@yahoo.com.ar?subject=asunto" enctype ="text/plain" > 
+                        <div class="contacto-container_main_formulario_name">
+                            <label for="name"><input id="name" type="text" placeholder="Nombre" required></label>
+                            <label for="email"><input id="email" type="email" placeholder="Email"required></label>
+                        </div>
+                        <label class="contacto-container_main_formulario_comentario" for="comment"><textarea
+                                id="comment" placeholder="Tu mensaje"></textarea></label>
+                        <button class="botones" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <span class="nombre-footer">Cristian Reven</span>
+                <div>
+                    <a class="icono-footer" href="https://www.linkedin.com/in/cristian-reven-45a031164/"
+                        target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a class="icono-footer" href="https://github.com/cristonr" target="_blank"><i class="fab fa-github"
+                            aria-hidden="true"></i></a>
+                    <a class="icono-footer" href="https://www.facebook.com/cristonr" target="_blank"><i
+                            class="fab fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
